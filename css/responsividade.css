@@ -1,0 +1,270 @@
+@media screen and (max-width: 960px){
+    /* Cabeçalho Ìnicio */
+
+    header .logo {
+        width: 40%;
+    }
+    /* Cabeçalho Fim */
+
+    /* Café da Manhã/Tarde ìnicio */
+    .slider-img {
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .slider {
+        height: 92vh;
+    }
+    .texto1 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .manual-navigation {
+        margin-top: 1090px;
+        margin-left: 650px;
+    }
+    /* Café da Manhã/Tarde Fim */
+
+    /* Salgados Ìnicio */
+    article section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .texto2 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .slider2 {
+        height: 88vh;
+    }
+    .slides2 {
+        margin-top: 50px;
+    }
+    .manual-navigacao {
+        margin-top: 1030px;
+        margin-right: 600px;
+    }
+    /* Salgados Fim */
+
+    /* Doces Ìnicio */
+    aside section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .texto3 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .slider3 {
+        height: 88vh;
+    }
+    .slides3 {
+        margin-top: 50px;
+    }
+    /* Footer Ìnicio */
+    .logofooter {
+        width: 100%;
+    }
+    .logofooter img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 414px){
+    /* Cabeçalho Ìnicio */
+    header .logo {
+        width: 15%;
+        display: flex;
+        justify-content: center;
+    }
+    header .logo img{
+        width: 300px;
+        margin-top: -50px;
+    }
+    header .menu ul {
+        margin-top: -80px;
+    }
+    /* cabeçalho Fim */
+
+    /* Café da Manhã/Tarde Ìnicio */
+    main {
+        margin: 0 auto;
+        background-color: white;
+        max-width: 414px;
+        min-width: 414px;
+        max-height: 820px;
+        min-height: 500px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .slider-img {
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .slider {
+        width: 100%;
+        height: 70vh;
+        margin-left: 80px;
+    }
+    .slides {
+        margin-top: 40px;
+    }
+
+    .slide {
+        width: 20%;
+        transition: none;
+    }
+    .slide img {
+        width: 80%;
+        height: 500px;
+    }
+    .texto1 {
+        font-size: 1rem;
+        margin: 30px 15px;
+    }
+    .manual-navigation {
+        width: 100%;
+        margin-top: 650px;
+        margin-left: 520px;
+    }
+    .manual_btn:not(:last-child){
+        margin-right: 20px;
+    }
+    /* Café da Manhã/Tarde Fim */
+
+    /* Salgados Ìnicio */
+
+    article {
+        margin: auto;
+        background-color: var(--cor5);
+        max-width: 414px;
+        min-width: 50px;
+        max-height: 820px;
+        min-height: 500px;
+        position: relative;
+        z-index: 1;
+    }
+    article section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .texto2 {
+        font-size: 1rem;
+        margin: 30px 15px;
+    }
+    .slider2 {
+        width: 100%;
+        height: 70vh;
+        margin-left: 80px;
+    }
+    .slides2 {
+        margin-top: 5px;
+    }
+
+    .slide2 {
+        width: 20%;
+        height: 40vh;
+        transition: none;
+    }
+    .slide2 img {
+        width: 80%;
+        height: 500px;
+    }
+    .manual-navigacao {
+        width: 100%;
+        margin-top: 600px;
+        margin-right: 530px;
+    }
+    .manualBtn:not(:last-child){
+        margin-right: 20px;
+    }
+    /* Salgados Fim */
+
+    /* Doces Ìnicio */
+
+    aside {
+        max-width: 414px;
+        min-width: 50px;
+        max-height: 820px;
+        min-height: 500px;
+        position: relative;
+        z-index: 1;
+    }
+    aside section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .texto3 {
+        font-size: 1rem;
+        margin: 30px 15px;
+    }
+    .slider3 {
+        width: 100%;
+        height: 70vh;
+        margin-left: 80px;
+    }
+    .slides3 {
+        margin-top: 5px;
+    }
+
+    .slide3 {
+        width: 20%;
+        height: 40vh;
+        transition: none;
+    }
+    .slide3 img {
+        width: 80%;
+        height: 500px;
+    }
+    .manual-navigacao3 {
+        width: 100%;
+        margin-top: 600px;
+        margin-left: 530px;
+    }
+    .manualBtn3:not(:last-child){
+        margin-right: 20px;
+    }
+    /* Doces Fim */
+
+    /* Footer Ìnicio */
+
+    footer {
+        width: 414px;
+        height: 450px;
+    }
+
+    .trabalheConosco {
+        font-size: 0.8rem;
+    }
+    .icons ion-icon {
+        font-size: 1.2rem;
+    }
+    .logofooter img {
+        width: 100%;
+    }
+    .copyright{
+        width: 100%;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .assinatura a {
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: black;  
+    }
+    .voltaraotopo {
+        display: none;
+    }
+}
